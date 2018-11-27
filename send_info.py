@@ -61,11 +61,11 @@ class SendMessage:
 
 
 if __name__ == '__main__':
-    my_dicts = {"任旭": "18531655801"}
+    my_dicts = {"": ""}
     Send = SendMessage()
-    Send.test_send(my_dicts, "SMS_150736399")
+    Send.test_send(my_dicts, "")
     
-    # test_send(my_dicts, "SMS_150736399")
+    # test_send(my_dicts, "")
 
    
     
