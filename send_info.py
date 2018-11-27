@@ -15,8 +15,8 @@ class SendMessage:
         self.REGION = "cn-hangzhou"
         self.PRODUCT_NAME = "Dysmsapi"
         self.DOMAIN = "dysmsapi.aliyuncs.com"
-        self.ACCESS_KEY_ID = "LTAIVJiVB0sfUXEA" # self_key_id
-        self.ACCESS_KEY_SECRET = "nx0aAPblux8gwgMpepR7rPhnc6fn2D" # self_pwd
+        self.ACCESS_KEY_ID = "" # self_key_id
+        self.ACCESS_KEY_SECRET = "" # self_pwd
 
         self.acs_client = AcsClient(self.ACCESS_KEY_ID, self.ACCESS_KEY_SECRET, self.REGION)
         region_provider.add_endpoint(self.PRODUCT_NAME, self.REGION, self.DOMAIN)
